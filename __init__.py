@@ -20,13 +20,13 @@ from touchtouch import touch
 
 from flatten_any_dict_iterable_or_whatsoever import fla_tu
 from flatten_everything import flatten_everything
-from exceptdrucker import errwrite
+#from exceptdrucker import errwrite
 from ctypes import wintypes
 from . import savebase64
-from getfilenuitkapython import get_filepath
+#from getfilenuitkapython import get_filepath
 
 pathshort64, shortkiller = savebase64.pathshort64, savebase64.shortkiller
-pathshort64, shortkiller = get_filepath('winski64.dll'), get_filepath('winski64.exe')
+#pathshort64, shortkiller = get_filepath('winski64.dll'), get_filepath('winski64.exe')
 folder = os.sep.join(__file__.split(os.sep)[:-1])
 
 

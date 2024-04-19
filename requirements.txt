@@ -1,8 +1,6 @@
 consolectrlchandler
-exceptdrucker
 flatten_any_dict_iterable_or_whatsoever
 flatten_everything
-getfilenuitkapython
 pidconnectioninfos
 touchtouch
 wmicprocsdict
