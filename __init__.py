@@ -1,3 +1,11 @@
+from consolectrlchandler import ctrl_config
+
+
+def ctrlhandler(ctrl_type):
+    print(f"ctrl handler {ctrl_type}")
+
+
+ctrl_config.function = ctrlhandler
 import subprocess
 import os
 import ctypes
@@ -15,9 +23,10 @@ from flatten_everything import flatten_everything
 from exceptdrucker import errwrite
 from ctypes import wintypes
 from . import savebase64
+from getfilenuitkapython import get_filepath
 
 pathshort64, shortkiller = savebase64.pathshort64, savebase64.shortkiller
-
+pathshort64, shortkiller = get_filepath('winski64.dll'), get_filepath('winski64.exe')
 folder = os.sep.join(__file__.split(os.sep)[:-1])
 
 
